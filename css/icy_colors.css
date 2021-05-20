@@ -1,0 +1,39 @@
+body {
+    margin: 40px;
+    background-color: #CAF0F8;
+}
+main {
+    margin: 40px;
+    padding: 40px;
+    border: 1px solid #023E8A;
+}
+
+section {
+  background-color: #CAF0F8;
+  margin: 20px;
+  padding: 20px;
+  width: 120px;
+  animation-name: experiment1;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+h1 {
+    text-align: center;
+    color: #03045E;
+}
+
+h2 {
+    color: #023E8A;
+}
+ 
+a, a:visited {
+    color: #0077B6;
+    text-decoration: none;
+}
+      
+footer {
+    text-align: center;
+    color: #03045E;
+}
+      

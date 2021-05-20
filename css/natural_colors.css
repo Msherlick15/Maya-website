@@ -1,0 +1,63 @@
+body {
+    margin: 40px;
+    background-color: #D4CDAB;
+}
+main {
+    margin: 40px;
+    padding: 40px;
+    border: 1px solid #8E9B90;
+}
+
+section {
+  background-color: #EDF2F4;
+  margin: 20px;
+  padding: 20px;
+  width: 120px;
+  animation-name: experiment1;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+h1 {
+    text-align: center;
+    color: #305252;
+}
+
+h2 {
+    color: #305252;
+}
+
+@keyframes experiment1 {
+    from {background-color: #EDF2F4;}
+    to {background-color: yellow;}
+
+}
+
+#experiment1:hover {
+    width: 30px;
+    height: 30px;
+    font-size: 0.5%;
+}
+#experiment2:hover {
+  width: 120px;
+  height: 120px;
+  transition: transform 3s;
+  transform: rotate(180deg);
+}
+
+#experiment3:hover {
+  height: 400px;
+  width: 400px;
+  font-size: 50px;
+  color: purple;
+}      
+a, a:visited {
+    color: #488286;
+    text-decoration: none;
+}
+      
+footer {
+    text-align: center;
+    color: #373E40;
+}
+      

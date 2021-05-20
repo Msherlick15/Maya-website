@@ -1,0 +1,186 @@
+
+@font-face {
+  font-family: frederikathegreat;
+  src: url("media/frederickathegreat.ttf");
+}
+
+@keyframes logoanimation {
+  0% {left: 0%; top: 0px;}
+  50% {left: 400%; top: 0px;}
+  100% {left: 30%; top: 0px;}
+}
+
+article {
+  padding: 10px;
+}
+
+body {
+  font-family: frederikathegreat;
+  font-size: 85%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #8E9B90;
+  background: #F6F0ED;
+}
+footer {
+  font-family: frederikathegreat;
+  font-size: 80%;
+  text-align: center;
+  clear: both;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #8E9B90;
+  margin-top: 0;
+  padding: 0;
+  background: #F1FEC6;
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: #305252;
+}
+
+h1 {
+  font: frederikathegreat;
+  text-shadow: 3px 3px 3px #888888;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font: frederikathegreat;
+  text-shadow: 3px 3px 3px #888888;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+header {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  background color: #DCE2BD;
+  border-bottom-color: #8E9B90;
+  display: flex;
+}
+nav {
+  background: #DCE2BD;
+  font-weight: bold;
+  float: left;
+  height: 420px;
+  padding-right: 24px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+section {
+  background-color: #D4CDAB;
+}
+.parent {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#animation {
+height: 70px;
+margin-right: 40px;
+width: 70px;
+}
+#logobox {
+
+}
+.floatright {
+  float: right;
+  clear: right;
+  margin: 10px;
+}
+.navlinks {
+  display: block;
+  border: 2px solid #305252;
+  padding: 2px 5px;
+  background: #77878B;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #B7D5D4;
+}
+#animation {
+  position: relative;
+
+  /* Safari and Chrome: */
+  -webkit-animation-name: logoanimation;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+
+  animation-name: logoanimation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+#drop-menu {
+  width: 150px;
+  cursor: pointer;
+  border: 2px solid #305252;
+  padding: 5px;
+  height: 20px;
+  max-height: 20px;
+  background: #77878B;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #B7D5D4;
+  font-family: frederikathegreat;
+  font-weight: bold;
+  font-size: 85%;
+  color: #0000A0;
+  text-align: center;
+}
+
+#drop-menu:hover {
+  border: 3px solid #305252;
+}
+#drop-menu:hover .sub-menu {
+  display: inline-block;
+}
+
+#img-rotate {
+  position: relative;
+  -ms-transform: rotate(0deg); /* IE9 */
+  -webkit-transform: rotate(0deg); /* Chrome and Safari */
+  transform: rotate(0deg);
+}
+
+#logo-rotate {
+  -webkit-transform: rotateY(12deg); /* Safari and Chrome */
+  transform: rotateY(12deg);
+}
+#video-rotate {
+  -ms-transform: rotate(12deg); /* IE9 */
+  -webkit-transform: rotate(10deg); /* Chrome and Safari */
+  transform: rotate(10deg);
+}
+
+.sub-menu {
+  display: none;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  -moz-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+.sub-menu li {
+  list-style-type: none;
+  display: block;
+  border: 2px solid #305252;
+  padding: 2px 5px;
+  background: #77878B;
+  border-radius: 5px;
+}
+
+.sub-menu li:hover {
+  border: 3px solid #305252;
+}
