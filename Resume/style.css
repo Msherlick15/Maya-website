@@ -136,7 +136,7 @@ li{
 }
 
 /**** minor tweaks on the icon fonts ****/
-#main h2 > .fa-graduation-cap{
+#main h2 > .fa-book-open{
   left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
   top: 2pt;
 }
