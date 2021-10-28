@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Brainpower</title>
+<style>
+@import url(../css/icy_colors.css);
+p#clickme {
+    text-align: center;
+</style>
+<script>
+  function yourRobbery() {
+  var balance = 10500;
+var cameraOn = true;
+function steal(balance, amount) {
+ cameraOn = false;
+ if (amount < balance) {
+ balance = balance - amount;
+ }
+ return amount;
+ cameraOn = true;
+}
+var amount = steal(balance, 1250);
+alert("Criminal: I stole " + amount + "!");
+alert("Criminal: NOOO! How did you catch me? ");
+
+}
+</script>
+</head>
+<body>
+  <h1>Oh No! You're Being Robbed</h1>
+      <p>Will they get away?</p>
+      <p id="clickme">
+<button onclick="yourRobbery()">Click Here to see if they get away!</button>
+</p>
+
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong>Validatior</a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<strong> CSS </strong>Validatior</a>
+</footer>
+
+</body>
+</html>
+
+

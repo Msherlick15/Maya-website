@@ -1,0 +1,29 @@
+<!doctype html> 
+<html lang="en"> 
+  <head>
+    <title>Planets</title> 
+<style>
+  @import url(../css/icy_colors.css);
+  h1 {
+    text-align: left;
+    color: #03045E;
+}
+</style>
+    <meta charset="utf-8"> 
+    <script>
+      function init() {
+      var planet = document.getElementById("greenplanet");
+      planet.innerHTML = "Red alert: hit by phaser fire!"; 
+      }
+window.onload = init;
+    </script>
+   </head>
+   <body>
+    <h1>Green Planet</h1>
+      <p id="greenplanet">All is well</p> 
+    <h1>Red Planet</h1>
+      <p id="redplanet">Nothing to report</p> 
+    <h1>Blue Planet</h1>
+      <p id="blueplanet">All systems a-Ok</p>
+  </body>
+ </html>

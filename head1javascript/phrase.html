@@ -1,0 +1,31 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+<title>Phrase-o-matic</title> 
+<meta charset="utf-8">
+<style>
+@import url(../css/icy_colors.css);
+body {
+font-family: verdana, Helvetica, sans-serif;
+}
+</style>
+<script>
+  function makePhrases() {
+    var words1 = ["Expecto", "Accio", "Wingardium", "Lumos", "Avada"];
+    var words2 = ["Leviosa", "Riddikulus", "Sectumsempra", "Anapneo", "Kedavra"];   
+    var words3 = ["Ascendare", "Exumai", "Momentum", "Avis", "Avenseguim"];
+
+var rand1 = Math.floor(Math.random() * words1.length);
+var rand2 = Math.floor(Math.random() * words2.length);
+var rand3 = Math.floor(Math.random() * words3.length);
+    var phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
+var phraseElement = document.getElementById("phrase");
+phraseElement.innerHTML = phrase;
+  }
+window.onload = makePhrases;
+</script>
+  </head>
+    <body>
+<h1>Choose Your Spell:</h1>
+<p id="phrase"></p> </body>
+</html>
